@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreatorSync | Creator & Brand Collaboration Platform</title>
+  <meta name="description"
+    content="Connect content creators and premium brands. Manage campaigns, approve milestones, and track secure creative assets in one unified startup workspace.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- GLOBAL SVG GRADIENTS DEFINITION FOR VECTOR ICONS -->
+  <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="purple-blue-grad" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </svg>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-share2">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        CreatorSync
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How it Works</a>
+        <a href="#creators" class="nav-link">Explore</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button class="btn-icon" id="theme-toggle" aria-label="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="../client/index.html" class="nav-link" style="font-weight:600;">Login</a>
+        <a href="../client/index.html" class="btn btn-primary">Join Platform</a>
+      </div>
+
+      <button class="btn-icon menu-toggle" id="menu-toggle" aria-label="Toggle Mobile Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="section hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content reveal active">
+        <div class="hero-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle">
+            <path d="M12 3v16M5 10h14" />
+          </svg>
+          <span>Accelerating Creator Onboarding</span>
+        </div>
+        <h1>Syncing <span class="gradient-text">Brands</span> & <span class="gradient-text-sec">Creators</span>
+          Seamlessly</h1>
+        <p>A structured, modern collaboration hub to discover sponsorship briefs, negotiate pricing rates, and execute
+          campaign deliverables securely.</p>
+        <div class="hero-actions">
+          <a href="../client/index.html" class="btn btn-primary">Join as Creator</a>
+          <a href="../client/index.html" class="btn btn-outline">Hire Creators</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal active">
+        <div class="hero-glow"></div>
+        <div class="hero-dashboard-preview">
+          <div class="preview-header">
+            <div class="preview-dots">
+              <span class="preview-dot" style="background:#ef4444;"></span>
+              <span class="preview-dot" style="background:#f59e0b;"></span>
+              <span class="preview-dot" style="background:#10b981;"></span>
+            </div>
+            <span
+              style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">creatorsync.com/dashboard</span>
+            <div style="width:20px;"></div>
+          </div>
+          <div class="preview-body">
+            <div class="preview-card" style="display:flex; justify-content:space-between; align-items:center;">
+              <div>
+                <span style="font-size:0.75rem; color:var(--text-muted); display:block; font-weight:600;">ACTIVE
+                  BUDGET</span>
+                <span style="font-size:1.25rem; font-weight:800; color:var(--primary);">$12,450.00</span>
+              </div>
+              <span class="badge badge-primary" style="font-size:0.7rem;">In Progress</span>
+            </div>
+            <div class="preview-card" style="display:flex; flex-direction:column; gap:8px;">
+              <span style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">ACTIVE MILESTONES</span>
+              <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem;">
+                <span>Draft Submission Review</span>
+                <span class="badge badge-pending" style="font-size:0.65rem;">Reviewing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATISTICS SECTION -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3 class="stat-count" data-target="15000">0</h3>
+        <p>Active Creators</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-count" data-target="2400">0</h3>
+        <p>Premium Brands</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-count" data-target="8200">0</h3>
+        <p>Campaigns Funded</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-count" data-target="1200000">0</h3>
+        <p>Payouts Cleared</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Features</span>
+        <h2>Optimized Collaboration Suite</h2>
+        <p>Skip back-and-forth emails. CreatorSync coordinates workflows in a centralized workspace.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="glass-card glass-card-hover feature-card reveal">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+              <polyline points="14 2 14 8 20 8" />
+            </svg>
+          </div>
+          <h3>Structured Briefs</h3>
+          <p>Brands detail deliverables, guidelines, deadlines, and budget ceilings directly. No misaligned
+            expectations.</p>
+        </div>
+
+        <div class="glass-card glass-card-hover feature-card reveal">
+          <div class="feature-icon-wrapper" style="color:var(--secondary); background:var(--secondary-glow);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <h3>Milestones Verification</h3>
+          <p>Creators submit delivery links, draft assets, and proof points. Brands sign off and log tasks inside the
+            tracker.</p>
+        </div>
+
+        <div class="glass-card glass-card-hover feature-card reveal">
+          <div class="feature-icon-wrapper" style="color:#10b981; background:rgba(16, 185, 129, 0.1);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          </div>
+          <h3>Real-time Conversations</h3>
+          <p>Centralized activity channels keep feedback threads, updates, and asset adjustments right beside the
+            workspace brief.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS SECTION -->
+  <section class="section" id="how-it-works" style="background-color: var(--bg-tertiary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Workflows</span>
+        <h2>How CreatorSync Works</h2>
+        <p>Three straightforward steps to establish collaborations from proposal matching to deliverable handoffs.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="step-num">1</div>
+          <h3>Publish & Discover</h3>
+          <p>Brands publish targeted campaign briefs. Creators search the dashboard, discover opportunities, and apply.
+          </p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-num">2</div>
+          <h3>Pitch & Sync</h3>
+          <p>Creators pitch proposed rates and portfolios. Brands review pitches, select partners, and approve
+            proposals.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-num">3</div>
+          <h3>Collaborate</h3>
+          <p>A private workspace instantiates. The creator submits proofs, the brand signs off, and campaigns launch.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR CREATORS -->
+  <section class="section" id="creators">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Explore Creators</span>
+        <h2>Featured Platform Creators</h2>
+        <p>Browse content experts across YouTube, TikTok, and Instagram collaborating with brands.</p>
+      </div>
+
+      <div class="creators-grid">
+        <div class="glass-card creator-card reveal">
+          <div class="creator-profile">
+            <div class="creator-img">AM</div>
+            <div class="creator-info">
+              <h4>Alex Morgan</h4>
+              <span>@alexmorgan.tech</span>
+            </div>
+          </div>
+          <div class="creator-stats">
+            <div>
+              <span class="c-stat-val">125K</span>
+              <span class="c-stat-lbl">Reach</span>
+            </div>
+            <div>
+              <span class="c-stat-val">Tech</span>
+              <span class="c-stat-lbl">Niche</span>
+            </div>
+            <div>
+              <span class="c-stat-val">4.8%</span>
+              <span class="c-stat-lbl">Engagement</span>
+            </div>
+          </div>
+          <a href="../client/index.html" class="btn btn-outline" style="width:100%;">View Channels</a>
+        </div>
+
+        <div class="glass-card creator-card reveal">
+          <div class="creator-profile">
+            <div class="creator-img" style="background:var(--secondary-grad);">SC</div>
+            <div class="creator-info">
+              <h4>Sarah Chen</h4>
+              <span>@sarahchen.design</span>
+            </div>
+          </div>
+          <div class="creator-stats">
+            <div>
+              <span class="c-stat-val">84K</span>
+              <span class="c-stat-lbl">Reach</span>
+            </div>
+            <div>
+              <span class="c-stat-val">Design</span>
+              <span class="c-stat-lbl">Niche</span>
+            </div>
+            <div>
+              <span class="c-stat-val">6.2%</span>
+              <span class="c-stat-lbl">Engagement</span>
+            </div>
+          </div>
+          <a href="../client/index.html" class="btn btn-outline" style="width:100%;">View Channels</a>
+        </div>
+
+        <div class="glass-card creator-card reveal">
+          <div class="creator-profile">
+            <div class="creator-img" style="background:linear-gradient(135deg, #10b981 0%, #059669 100%);">MR</div>
+            <div class="creator-info">
+              <h4>Marcus Reyes</h4>
+              <span>@marcus.fitness</span>
+            </div>
+          </div>
+          <div class="creator-stats">
+            <div>
+              <span class="c-stat-val">240K</span>
+              <span class="c-stat-lbl">Reach</span>
+            </div>
+            <div>
+              <span class="c-stat-val">Fitness</span>
+              <span class="c-stat-lbl">Niche</span>
+            </div>
+            <div>
+              <span class="c-stat-val">3.5%</span>
+              <span class="c-stat-lbl">Engagement</span>
+            </div>
+          </div>
+          <a href="../client/index.html" class="btn btn-outline" style="width:100%;">View Channels</a>
+        </div>
+      </div>
+
+      <!-- POPULAR BRANDS LOGOS -->
+      <div style="margin-top: 80px; border-top:1px solid var(--border); padding-top: 60px;">
+        <h4 style={{ textAlign: 'center' , fontSize: '0.85rem' , color: 'var(--text-muted)' , textTransform: 'uppercase'
+          , letterSpacing: '0.1em' , marginBottom: '40px' }}>SPONSORSHIP PARTNERS</h4>
+        <div class="brands-row">
+          <div class="brand-logo"><span class="gradient-text">Acme</span>Corp</div>
+          <div class="brand-logo"><span class="gradient-text-sec">Globex</span>Industries</div>
+          <div class="brand-logo">Initech</div>
+          <div class="brand-logo"><span style="color:var(--primary);">Umbrella</span>Ltd</div>
+          <div class="brand-logo">Vehement</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section" id="testimonials"
+    style="background-color: var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Testimonials</span>
+        <h2>Endorsed by Partners</h2>
+      </div>
+
+      <div class="testimonials-slider-container reveal">
+        <div class="testimonials-track" id="testimonials-track">
+          <div class="testimonial-slide">
+            <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M11.19 12.04c0-2.68.73-4.6 2.18-5.75 1.1-.87 2.45-1.29 4.07-1.29v2.23c-.76 0-1.39.18-1.91.53-.73.49-1.12 1.34-1.19 2.54h3.1v6.18h-6.25v-4.44zm-9 0c0-2.68.73-4.6 2.18-5.75 1.1-.87 2.45-1.29 4.07-1.29v2.23c-.76 0-1.39.18-1.91.53-.73.49-1.12 1.34-1.19 2.54h3.1v6.18H2.19v-4.44z" />
+            </svg>
+            <q>CreatorSync cut down our campaign briefing and agreement turnaround times from 3 weeks to under 4 days.
+              The milestone validation pipeline kept deliverables organized without a single email leak.</q>
+            <div class="testimonial-author">
+              <span class="author-name">Clara Oswald</span>
+              <span class="author-role">VP of Marketing, Acme Corp</span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M11.19 12.04c0-2.68.73-4.6 2.18-5.75 1.1-.87 2.45-1.29 4.07-1.29v2.23c-.76 0-1.39.18-1.91.53-.73.49-1.12 1.34-1.19 2.54h3.1v6.18h-6.25v-4.44zm-9 0c0-2.68.73-4.6 2.18-5.75 1.1-.87 2.45-1.29 4.07-1.29v2.23c-.76 0-1.39.18-1.91.53-.73.49-1.12 1.34-1.19 2.54h3.1v6.18H2.19v-4.44z" />
+            </svg>
+            <q>As a tech reviewer, I apply to dozens of briefs a month. The unified pipeline inside CreatorSync displays
+              rates clearly and makes draft proof submission effortless. Truly built for creative productivity.</q>
+            <div class="testimonial-author">
+              <span class="author-name">Alex Morgan</span>
+              <span class="author-role">Tech Content Creator</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-dots">
+          <span class="slider-dot active" data-slide="0"></span>
+          <span class="slider-dot" data-slide="1"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS SECTION -->
+  <section class="section" id="faqs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">FAQs</span>
+        <h2>Common Inquiries</h2>
+        <p>Find quick answers about roles, workflow tracking, and platform permissions.</p>
+      </div>
+
+      <div class="faqs-container reveal">
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3>Is there a cost to register?</h3>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Registration is completely free for both creators and brands. Creators can search campaign briefs, and
+              brands can write draft specs and review applications free of charge.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3>How do milestones protect work?</h3>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              When a brand approves a creator application, deliverables are structured into sequential milestones.
+              Creators submit links or draft files for validation. The brand signs off on each milestone before the
+              project transitions to the next phase.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h3>Can I change my account type later?</h3>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Accounts are bound to either a "Creator" or "Brand" role during sign-up to ensure interface optimization.
+              If you manage both creator channels and a brand, we suggest registering two separate profiles.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3 class="logo" style="-webkit-text-fill-color:white; color:#ffffff;">CreatorSync</h3>
+          <p>Connecting creators and premium brands inside a single unified dashboard built for modern creative
+            execution.</p>
+          <div class="footer-socials">
+            <a href="#" class="btn-icon" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                </path>
+              </svg>
+            </a>
+            <a href="#" class="btn-icon" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="btn-icon" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How it Works</a></li>
+            <li><a href="#creators">Explore Profiles</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Stay Synchronized</h4>
+          <p>Receive updates about new high-budget briefs and creator tips weekly.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+            <input type="email" placeholder="name@company.com" class="newsletter-input" required
+              aria-label="Newsletter Email">
+            <button type="submit" class="btn btn-primary" style="padding:12px 18px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CreatorSync. All rights reserved. Built for professional creative operations.</p>
+        <div style="display:flex; gap:24px;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
